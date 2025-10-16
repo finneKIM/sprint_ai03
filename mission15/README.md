@@ -81,4 +81,4 @@ docker build -t fiinn/mission15-r1 .
 docker run -p 10000:8888 fiinn/mission15-r1
 
 
-| [Docker Hub에서 보기]{https://hub.docker.com/repository/docker/fiinn/mission15-r1/general}
+| [Docker Hub에서 체크](https://hub.docker.com/repository/docker/fiinn/mission15-r1/general)

@@ -1,0 +1,21 @@
+services:
+  trainer:
+    build: ./r1
+    image: fiinn/mission15-r1:1.0
+    container_name: m15_trainer
+    volumes:
+      - ./data:/data:ro
+      - ./shared:/artifacts
+    restart: "no"
+
+  notebook:
+    image: jupyter/base-notebook:latest
+    container_name: m15_notebook
+    ports:
+      - "10000:8888"
+    environment:
+      - JUPYTER_TOKEN=mission15
+    volumes:
+      - ./shared:/home/jovyan/work/shared
+    depends_on:
+      - trainer

@@ -1,0 +1,8 @@
+{
+  "rmse_valid": 2.248581839290389,
+  "n_train": 5600,
+  "n_valid": 1400,
+  "model_type": "RandomForestRegressor",
+  "sklearn_version": "1.4.2",
+  "notes": "Preprocessor(ColumnTransformer)+RandomForest pipeline"
+}

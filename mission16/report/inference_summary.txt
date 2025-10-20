@@ -1,0 +1,6 @@
+FP32 Acc: 0.9882
+INT8 Acc: 0.9880
+ONNX Acc: 0.9882
+FP32 time(ms): 33.54
+INT8 time(ms): 34.20
+ONNX time(ms): 9.65

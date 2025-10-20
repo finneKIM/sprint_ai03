@@ -59,7 +59,6 @@ mission16/
 
 - 의존성 설치
   ```
-  bash
   pip install -r requirements.txt
   ```
 
@@ -73,7 +72,7 @@ mission16/
 ---
 
 ## 6. 버전 관리 및 유지 방침
-- .venv, __pycache__, .ipynb_checkpoints 등은 .gitignore에 의해 버전 관리 제외
+- ```.venv```, ```__pycache__```, ```.ipynb_checkpoints``` 등은 ```.gitignore```에 의해 버전 관리 제외
 - 모델 및 데이터 파일은 최소 단위로 관리
 - 대용량 파일은 외부 스토리지 또는 클라우드 저장소 활용 권장
 - 커밋 규칙:

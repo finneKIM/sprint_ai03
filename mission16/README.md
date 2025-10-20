@@ -1,8 +1,7 @@
 # Mission 16: 딥러닝 모델 양자화 및 추론 최적화
 
 본 문서는 AI Engineer Training 3기에서 수행한 Mission 16 프로젝트에 대한 요약 보고서임.  
-모델 경량화 및 성능 최적화를 목적으로 양자화 기법을 적용하고,  
-PyTorch 및 ONNX 기반 추론 환경에서 성능을 비교 검증함.
+모델 경량화 및 성능 최적화를 목적으로 양자화 기법을 적용하고, PyTorch 및 ONNX 기반 추론 환경에서 성능을 비교 검증함.
 
 ---
 
@@ -71,7 +70,9 @@ mission16/
 - 결과 보고서 확인
   report/ 또는 Summary_Report.pdf 참고
 
-6. 버전 관리 및 유지 방침
+---
+
+## 6. 버전 관리 및 유지 방침
 - .venv, __pycache__, .ipynb_checkpoints 등은 .gitignore에 의해 버전 관리 제외
 - 모델 및 데이터 파일은 최소 단위로 관리
 - 대용량 파일은 외부 스토리지 또는 클라우드 저장소 활용 권장
@@ -80,6 +81,9 @@ mission16/
   - Fix: 오류 수정
   - Update: 내용 보완
   - Remove: 불필요 파일 삭제
+ 
+  
 ----------------------
-작성자
-작성자: AI Engineer Training 3기 김하나
+
+## 작성자
+작성자: **AI Engineer Training 3기 김하나**

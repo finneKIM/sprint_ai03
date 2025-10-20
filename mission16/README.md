@@ -31,7 +31,7 @@ PyTorch 및 ONNX 기반 추론 환경에서 성능을 비교 검증함.
 ---
 
 ## 3. 디렉터리 구조
-
+```
 mission16/
 │
 ├── data/ # 샘플 데이터 또는 입력 예시
@@ -41,9 +41,8 @@ mission16/
 ├── modeling.ipynb # 학습 및 양자화 실험 노트북
 ├── requirements.txt # 의존성 패키지 목록
 └── Summary_Report.pdf # 결과 요약 보고서
+```
 
-yaml
-Copy code
 
 ---
 
@@ -60,32 +59,27 @@ Copy code
 ## 5. 실행 방법
 
 - 의존성 설치
-  ```bash
+  ```
+  bash
   pip install -r requirements.txt
-추론 실행
+  ```
 
-bash
-Copy code
-python inference.py
-결과 보고서 확인
-report/ 또는 Summary_Report.pdf 참고
+- 추론 실행
+  ```
+  python inference.py
+  ```
+- 결과 보고서 확인
+  report/ 또는 Summary_Report.pdf 참고
 
 6. 버전 관리 및 유지 방침
-.venv, __pycache__, .ipynb_checkpoints 등은 .gitignore에 의해 버전 관리 제외
-
-모델 및 데이터 파일은 최소 단위로 관리
-
-대용량 파일은 외부 스토리지 또는 클라우드 저장소 활용 권장
-
-커밋 규칙:
-
-Add: 신규 파일 추가
-
-Fix: 오류 수정
-
-Update: 내용 보완
-
-Remove: 불필요 파일 삭제
-
+- .venv, __pycache__, .ipynb_checkpoints 등은 .gitignore에 의해 버전 관리 제외
+- 모델 및 데이터 파일은 최소 단위로 관리
+- 대용량 파일은 외부 스토리지 또는 클라우드 저장소 활용 권장
+- 커밋 규칙:
+  - Add: 신규 파일 추가
+  - Fix: 오류 수정
+  - Update: 내용 보완
+  - Remove: 불필요 파일 삭제
+----------------------
 작성자
 작성자: AI Engineer Training 3기 김하나

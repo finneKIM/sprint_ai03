@@ -1,0 +1,14 @@
+# 가상환경, 캐시 폴더
+.venv/
+__pycache__/
+
+# 모델 및 대용량 파일
+models/
+*.onnx
+*.tar.gz
+
+# 기타 불필요 파일
+*.zip
+*.pdf
+*.log
+.DS_Store

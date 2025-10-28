@@ -1,0 +1,8 @@
+services:
+  app:
+    image: <DOCKERHUB_ID>/mission17-mnist:latest
+    # 또는 build: .  # 로컬에서 바로 빌드 실행하고 싶으면
+    ports:
+      - "8501:8501"
+    container_name: mission17-mnist
+    restart: unless-stopped

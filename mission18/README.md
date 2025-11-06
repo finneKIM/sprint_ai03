@@ -100,6 +100,7 @@ uv run streamlit run app.py
 ---
 
 ## ERD (데이터베이스 구조)
+```
 ┌───────────────┐       ┌────────────────┐
 │   Movies      │1     ∞│    Reviews     │
 ├───────────────┤       ├────────────────┤
@@ -110,6 +111,7 @@ uv run streamlit run app.py
 │ release_date  │       │ score          │
 │ poster_url    │       │ created_at     │
 └───────────────┘       └────────────────┘
+```
 
 ---
 
